@@ -1,9 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import TodoForm from './TodoForm.jsx'
+//import TodoForm from './TodoForm.jsx'
+import App from './App.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <TodoForm onAdd={(title) => console.log(title)} />
+  <StrictMode> 
+    <App/>
   </StrictMode>,
 )
